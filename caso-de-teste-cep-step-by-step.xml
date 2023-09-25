@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SCRUM</projectKey>
+    <exportDate>2023-09-25 19:08:43 UTC</exportDate>
+    <folders>
+        <folder fullPath="step-by-step" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="102487752" key="SCRUM-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Claudinei José Santos</createdBy>
+            <createdOn>2023-09-25 03:33:39 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[step-by-step]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validação de CEP]]></name>
+            <objective><![CDATA[Impedir que um CEP incorreto avance para a tela de finalizar pedido]]></objective>
+            <owner>5fbd00117cc1030069607243</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Na p&aacute;gina de checkout quando informar CEP correto e clicar em continue.]]></description>
+                        <expectedResult><![CDATA[Deve ir para p&aacute;gina final e mostrar informa&ccedil;&otilde;es de entrega e valor dos pordutos]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Na p&aacute;gina de checkout quando informar CEP incorreto e clicar em continue.]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve receber um alerta informando sobre erro no campo CEP e n&atilde;o prosseguir para &uacute;ltima etapa da compra.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

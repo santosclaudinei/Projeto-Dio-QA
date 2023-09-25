@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SCRUM</projectKey>
+    <exportDate>2023-09-25 19:08:33 UTC</exportDate>
+    <folders>
+        <folder fullPath="step-by-step" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="102487707" key="SCRUM-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Claudinei José Santos</createdBy>
+            <createdOn>2023-09-25 03:27:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[step-by-step]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Botão continuar comprando na pagina de checkout]]></name>
+            <objective><![CDATA[Implementar bot&atilde;o para que o usu&aacute;rio possa realizar inser&ccedil;&atilde;o de novos produtos no seu carrinho]]></objective>
+            <owner>5fbd00117cc1030069607243</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Ao inserir CEP correto na pagina de checkout.]]></description>
+                        <expectedResult><![CDATA[Deve carregar informa&ccedil;&otilde;es de pre&ccedil;o e endere&ccedil;o al&eacute;m do bot&atilde;o continuar comprando.]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Quando o cliente clicar no bot&atilde;o continuar comprando]]></description>
+                        <expectedResult><![CDATA[Deve ser redirecionado para a p&aacute;gina de produtos.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
