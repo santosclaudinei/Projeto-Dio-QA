@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SCRUM</projectKey>
+    <exportDate>2023-09-25 19:07:24 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="102487472" key="SCRUM-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Claudinei José Santos</createdBy>
+            <createdOn>2023-09-25 03:07:10 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Botão continuar comprando na pagina de checkout]]></name>
+            <objective><![CDATA[Implementar um bot&atilde;o para voltar para p&aacute;gina de checkout.]]></objective>
+            <owner>5fbd00117cc1030069607243</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que estou na página do checkout
+When adicionei o CEP e realizou o calculo da compra
+And clico no botão "Continuar Comprando"
+Then devo ser redirecionado para página de produtos]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SCRUM</projectKey>
+    <exportDate>2023-09-25 19:08:19 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="102487485" key="SCRUM-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Claudinei José Santos</createdBy>
+            <createdOn>2023-09-25 03:10:12 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validação de CEP]]></name>
+            <objective><![CDATA[Impedir que um CEP incorreto avance para a tela de finalizar pedido]]></objective>
+            <owner>5fbd00117cc1030069607243</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que estou na página de checkout
+And preencho o campo de CEP com um CEP incorreto
+When clico no botão "Avançar"
+Then devo ver uma mensagem de erro informando que o CEP é inválido
+And não devo conseguir prosseguir para a próxima etapa do pedido]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
